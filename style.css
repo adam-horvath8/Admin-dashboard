@@ -1,0 +1,74 @@
+/* body */
+body{
+    margin: 0px;
+}
+/* container */
+.container{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+/* header */
+header{
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.search{
+    background-color: pink;
+}
+.icon{
+    background-color: aquamarine;
+}
+/* header-main */
+.header-main{
+    background-color: brown;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+/* nav */
+nav{
+    background-color: blue;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+a {
+    color: white;
+}
+/* main */
+main{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.projects{
+    background-color: goldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25px 2fr 2fr 2fr;
+    gap: 30px;
+    padding: 0 30px
+}
+.project{
+    background-color: yellow;
+}
+.announcements{
+    background-color: beige;
+    display: grid;
+    grid-template-rows: 55px 1fr 55px 1fr;
+    grid-template-columns: 1fr;
+     padding-right: 30px;
+}
+.announcements-div{
+    background-color: orange;
+}
+.trending{
+    background-color: rgb(108, 108, 167);
+}
+h2{
+    grid-column: 1/3;
+}
+
+
