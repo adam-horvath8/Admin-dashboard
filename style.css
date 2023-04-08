@@ -8,19 +8,77 @@ body{
     display: grid;
     grid-template-columns: 1fr 4fr;
     min-height: 100vh;
-    padding-bottom: 30px;
 }
 /* header */
 header{
-    background-color: aqua;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(0, 198, 255, 1) 100%);
     display: grid;
     grid-template-rows: 1fr 1fr;
+    
 }
 .search{
-    background-color: pink;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.search-left{
+    padding-left: 40px;
+    align-self: center;
+    color: rgb(58, 58, 58);
+}
+input{
+    min-width: 500px;
+    background-color:rgb(235, 235, 235);
+    border-radius: 10px;
+    border: none;
+    height: 20px;
+}
+.search-rigth{
+    display: flex;
+    color:rgb(58, 58, 58); 
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 40px;
+}
+img{
+    height: 40px;
+    border-radius: 50px;
 }
 .icon{
-    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.icon-left{
+    display: flex;
+}
+.icon-left img{
+    margin: 10px 10px 10px 40px;
+    height: 60px;
+}
+.greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+.greeting span:last-child{
+    font-size: 1.5rem;
+}
+.icon-rigth{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(0, 98, 190);
+    border: none;
+    color: white;
 }
 /* header-main */
 .header-main{
@@ -30,18 +88,42 @@ header{
 }
 /* nav */
 nav{
-    background-color: blue;
+    background-color: rgb(228, 228, 228);
     grid-column: 1/2;
     grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 160px 3.7fr 2fr 3fr;
+    box-shadow: 2px 1px 5px #575757;
 }
-a {
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li {
+    color: rgb(0, 98, 190);
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+i{
+    margin-right: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
     color: white;
+    font-size: 2.3rem;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(0, 198, 255, 1) 100%);
+    padding-left: 40px;
 }
 /* main */
 main{
     background-color: blueviolet;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding-bottom: 30px;
 }
 .projects{
     background-color: goldenrod;
