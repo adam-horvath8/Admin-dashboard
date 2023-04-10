@@ -44,7 +44,7 @@ input{
 }
 img{
     height: 40px;
-    border-radius: 50px;
+    border-radius: 90px;
 }
 .icon{
     display: grid;
@@ -123,21 +123,37 @@ main{
     background-color: blueviolet;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding-bottom: 30px;
+    
 }
 .projects{
-    background-color: goldenrod;
+    background: rgb(232, 231, 231);
+    background: linear-gradient(0deg, rgba(232, 231, 231, 1) 0%, rgba(251, 251, 251, 1) 100%);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 25px 2fr 2fr 2fr;
     gap: 30px;
-    padding: 0 30px
+    padding: 0 30px 30px 30px;
 }
 .project{
-    background-color: yellow;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 7px solid rgb(0, 98, 190);
+    box-shadow: 2px 1px 5px #575757;
+}
+.project h5{
+    margin-bottom: 10px;
+}
+.project-icon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .announcements{
-    background-color: beige;
+    background: rgb(232, 231, 231);
+    background: linear-gradient(0deg, rgba(232, 231, 231, 1) 0%, rgba(251, 251, 251, 1) 100%);
     display: grid;
     grid-template-rows: 55px 1fr 55px 1fr;
     grid-template-columns: 1fr;
